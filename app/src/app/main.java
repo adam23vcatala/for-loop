@@ -14,11 +14,12 @@ public class main {
         } else if (num < 0){
             System.err.println("Tiene que ser positivo");
         }
-        num = sc.nextInt();
+        num = sc.nextInt(); 
         
         for (int i = 1; i <= num; i++) {
             System.out.println(i + ". " + texto);
         }
+        
     }
     
 }
